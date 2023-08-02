@@ -1,0 +1,113 @@
+/*Epilogue - Font by Google*/
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
+*{
+  font-family: 'Epilogue', sans-serif;
+}
+
+/*root*/
+
+:root {
+  --cinza: rgb(73,73,73);
+}
+/*Primary navbar*/
+nav a {
+  text-decoration: none;
+  color: var(--cinza);
+}
+/*Navbar buttons and links*/
+.botao-navbar {
+  border: none;
+  padding: 15px;
+  background-color: white;
+  color: var(--cinza);
+}
+a.botao-navbar {
+  margin: 0;
+}
+
+.botao-navbar:hover, .botao-navbar:focus {
+  color: black;
+}
+
+/*Navbar Dropdown*/
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/*Dropdown Content*/
+.conteudoDropdown {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/*Dropdown Content Links*/
+.conteudoDropdown a {
+  color: var(--cinza);
+  padding: 6px 8px;
+  text-decoration: none;
+}
+
+.conteudoDropdown a:hover {
+  color: black;
+  background-color: rgb(250, 250, 250);
+}
+
+.iconeItemDropdown {
+  display: inline;
+}
+
+.textoItemDropdown {
+  display: inline;
+  padding: 10px;
+}
+
+/*Title - Make Remote Work*/
+.title {
+  font-size: 4em;
+  font-weight: 700;
+  line-height: 1.1em;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  width: 70%;
+}
+
+/*Subtitle*/
+.subtitle {
+  color: grey;
+  font-size: 1.0em;
+  width: 65%;
+}
+
+/*Button - Learn More -*/
+.btn-outline-black {
+  margin-top: 30px;
+  font-weight: 700;
+  width: 140px;
+  line-height: 35px;
+  color: white;
+  background-color: black;
+  border-radius: 15px; 
+}
+.btn-outline-black:hover {
+  color: black;
+  background-color: white;
+  border-color: black; 
+}
+
+/*Footer Primary Container*/
+footer {
+  margin-top: 60px;
+  width: 70%;
+}
+
+footer img {
+  width: 18%;
+  height: 20%;
+}
+
+/*Footer - Dev*/
+.attribution {
+  text-align: center;
+  opacity: 0.5;
+}
